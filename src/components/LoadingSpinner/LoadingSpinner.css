@@ -1,0 +1,19 @@
+.loading-container {
+  @apply flex flex-col items-center justify-center p-8;
+}
+
+.spinner {
+  @apply w-12 h-12 border-4 border-white border-opacity-30 rounded-full;
+  border-top-color: white;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-message {
+  @apply text-white mt-4 text-lg font-medium;
+}

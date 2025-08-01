@@ -1,0 +1,11 @@
+.nav-link {
+  @apply text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300;
+}
+
+.nav-link:hover {
+  @apply bg-white bg-opacity-20 transform scale-105;
+}
+
+.nav-link.active {
+  @apply bg-white bg-opacity-30 shadow-md;
+}
